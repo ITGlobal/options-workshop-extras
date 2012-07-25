@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleModel", "SampleModel\SampleModel.csproj", "{6BC6E582-65AE-4D05-9D89-3899D261AC5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pricing Models", "Pricing Models", "{121CB632-27AA-42C0-84F9-ED25311F4676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC6E582-65AE-4D05-9D89-3899D261AC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC6E582-65AE-4D05-9D89-3899D261AC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC6E582-65AE-4D05-9D89-3899D261AC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC6E582-65AE-4D05-9D89-3899D261AC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BC6E582-65AE-4D05-9D89-3899D261AC5D} = {121CB632-27AA-42C0-84F9-ED25311F4676}
+	EndGlobalSection
+EndGlobal
