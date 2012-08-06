@@ -135,7 +135,8 @@ namespace OptionsModels.SampleModel
             // Сохраняем волатильность для которой выполняется расчёт
             rValue.TheorIV = oep.Vola.Value + oep.VolaShift.Value;
             // Сохраняем дату и время для которых выполняется расчёт
-            rValue.Time = oep.Time;
+			// Этого свойства пока нет в публичной версии (будет в 12.8)
+			//rValue.Time = oep.Time;
 
             // Считаем цену и греки через модель Black-Scholes
             var all = BlackScholes.CalcPriceAndGreeks(ip.OptionType, 
